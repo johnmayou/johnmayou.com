@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	<meta name="generator" content="Hugo 0.147.3">
-    <meta charset="UTF-8" />
-    <title>John Mayou</title>
-    <link rel="stylesheet" href="/css/main.css" />
-  </head>
-  <body>
-    
+{{ define "main" }}
 <div id="home" class="obsidian-styles">
   <div>
     <h1>Hi, I'm John!</h1>
@@ -18,13 +9,13 @@
     <p>These are the projects that I've created and current working on:</p>
     <ul>
       <li>
-        <a href='/projects/project-one/'
+        <a href='{{ relref . "/projects/project-one.md" }}'
           >Placeholder Project 1</a
         >
         <span>: A brief description.</span>
       </li>
       <li>
-        <a href='/projects/project-two/'
+        <a href='{{ relref . "/projects/project-two.md" }}'
           >Placeholder Project 2</a
         >
         <span>: A brief description.</span>
@@ -32,6 +23,4 @@
     </ul>
   </div>
 </div>
-
-  </body>
-</html>
+{{ end }}
