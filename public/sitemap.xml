@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://johnmayou.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-16T14:28:24-05:00</lastmod>
   </url><url>
-    <loc>https://johnmayou.com/projects/project-one/</loc>
+    <loc>http://localhost:1313/projects/project-one/</loc>
     <lastmod>2025-05-16T14:28:24-05:00</lastmod>
   </url><url>
-    <loc>https://johnmayou.com/projects/project-two/</loc>
+    <loc>http://localhost:1313/projects/project-two/</loc>
     <lastmod>2025-05-16T14:28:24-05:00</lastmod>
   </url><url>
-    <loc>https://johnmayou.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-05-16T14:28:24-05:00</lastmod>
   </url><url>
-    <loc>https://johnmayou.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://johnmayou.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

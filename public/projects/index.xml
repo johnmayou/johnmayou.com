@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on John Mayou</title>
-    <link>https://johnmayou.com/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on John Mayou</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 May 2025 14:28:24 -0500</lastBuildDate>
-    <atom:link href="https://johnmayou.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project One</title>
-      <link>https://johnmayou.com/projects/project-one/</link>
+      <link>http://localhost:1313/projects/project-one/</link>
       <pubDate>Fri, 16 May 2025 14:28:24 -0500</pubDate>
-      <guid>https://johnmayou.com/projects/project-one/</guid>
+      <guid>http://localhost:1313/projects/project-one/</guid>
       <description>&lt;h3 id=&#34;section&#34;&gt;Section&lt;/h3&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;Project One&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Two</title>
-      <link>https://johnmayou.com/projects/project-two/</link>
+      <link>http://localhost:1313/projects/project-two/</link>
       <pubDate>Fri, 16 May 2025 14:28:24 -0500</pubDate>
-      <guid>https://johnmayou.com/projects/project-two/</guid>
+      <guid>http://localhost:1313/projects/project-two/</guid>
       <description>&lt;h3 id=&#34;section&#34;&gt;Section&lt;/h3&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;Project Two&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
   </channel>
