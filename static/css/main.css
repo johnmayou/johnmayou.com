@@ -193,10 +193,16 @@ main {
   h5,
   h6 {
     font-family: var(--font-sans);
+    font-weight: 600;
     color: var(--fg-heading);
     margin-top: 2rem;
     margin-bottom: 0.75rem;
   }
+
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 1.1rem; }
+  h3 { font-size: 1rem; }
+  h4, h5, h6 { font-size: 0.95rem; }
 
   p {
     margin-bottom: 1.25rem;
