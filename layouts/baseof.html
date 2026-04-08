@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    {{ block "main" . }}{{ end }}
+    <div id="layout">
+      <aside id="sidebar">
+        <nav>
+          <a href="/" class="{{ if .IsHome }}active{{ end }}">About</a>
+          <a href="/writing/" class="{{ if eq .Section "writing" }}active{{ end }}">Writing</a>
+        </nav>
+      </aside>
+      <header id="site-header">
+        <a href="/" id="site-name">JOHN MAYOU</a>
+      </header>
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
   </body>
 </html>
