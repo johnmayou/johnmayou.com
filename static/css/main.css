@@ -5,6 +5,7 @@
   --bg: #0d1117;
   --fg: #dadada;
   --fg-bright: #ffffff;
+  --fg-heading: #efefef;
   --fg-muted: #666;
   --fg-dim: #555;
   --fg-prose: #c9d1d9;
@@ -181,7 +182,7 @@ main {
   h2,
   h3,
   h4 {
-    color: var(--fg-bright);
+    color: var(--fg-heading);
     margin-top: 2rem;
     margin-bottom: 0.75rem;
   }
@@ -256,7 +257,7 @@ main {
 .prose .post-header {
   .post-title {
     font-weight: 600;
-    color: var(--fg-bright);
+    color: var(--fg-heading);
   }
 
   .post-date {
