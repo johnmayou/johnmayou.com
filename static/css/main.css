@@ -8,7 +8,7 @@
   --fg-heading: #efefef;
   --fg-muted: #666;
   --fg-dim: #555;
-  --fg-prose: #c9d1d9;
+  --fg-prose: #9ca3af;
   --fg-subtle: #8b949e;
 
   --border: #1e2530;
@@ -203,6 +203,10 @@ main {
 
   p {
     margin-bottom: 1.25rem;
+  }
+
+  strong {
+    color: var(--fg-heading);
   }
 
   a {
