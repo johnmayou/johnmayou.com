@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500&display=swap");
+
 :root {
+  --font-sans:
+    ui-sans-serif, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+
   --accent: #58a6ff;
   --accent-hover: #79b8ff;
 
@@ -30,19 +35,7 @@ body {
 
 body {
   overflow-x: clip;
-  font-family:
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto,
-    "Helvetica",
-    "Arial",
-    "Segoe UI",
-    "Inter",
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    sans-serif;
+  font-family: var(--font-sans);
   text-rendering: optimizeLegibility;
   background: var(--bg);
   color: var(--fg);
@@ -188,6 +181,7 @@ main {
 }
 
 .prose {
+  font-family: "PT Serif", serif;
   line-height: 1.7;
   font-size: 0.95rem;
   color: var(--fg-prose);
@@ -195,7 +189,10 @@ main {
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-sans);
     color: var(--fg-heading);
     margin-top: 2rem;
     margin-bottom: 0.75rem;
@@ -261,6 +258,7 @@ main {
   }
 
   .post-header {
+    font-family: var(--font-sans);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
