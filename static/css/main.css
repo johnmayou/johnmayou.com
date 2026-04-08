@@ -132,27 +132,27 @@ main {
 .post-list {
   display: flex;
   flex-direction: column;
-}
 
-.post-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 1rem 0;
-  text-decoration: none;
-  gap: 1rem;
-}
+  .post-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 0;
+    text-decoration: none;
+    gap: 1rem;
 
-.post-row + .post-row {
-  border-top: 1px solid var(--border);
-}
+    &:first-child {
+      padding-top: 0;
+    }
 
-.post-row:first-child {
-  padding-top: 0;
-}
+    &:last-child {
+      padding-bottom: 0;
+    }
 
-.post-row:last-child {
-  padding-bottom: 0;
+    & + .post-row {
+      border-top: 1px solid var(--border);
+    }
+  }
 }
 
 .post-title {
