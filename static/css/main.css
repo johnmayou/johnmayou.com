@@ -298,6 +298,7 @@ main {
 .post-list .post-row,
 .prose .post-header {
   .post-title {
+    font-size: 17px;
     font-weight: 600;
     color: var(--fg-heading);
   }
