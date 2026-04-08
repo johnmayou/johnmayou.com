@@ -67,12 +67,26 @@ a {
   grid-template-columns: 140px 620px 140px;
   grid-template-areas:
     ".       header  ."
-    "sidebar content .";
+    "sidebar content ."
+    ".       footer  .";
+  grid-template-rows: auto 1fr auto;
   column-gap: 2.5rem;
   row-gap: 2rem;
+  min-height: 100vh;
   width: fit-content;
   margin: 0 auto;
   padding: 5rem 2rem;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--fg-subtle);
 }
 
 #sidebar {
