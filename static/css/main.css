@@ -57,7 +57,7 @@ h6 {
 }
 
 a {
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -95,6 +95,7 @@ a {
       &::before {
         content: "• ";
         color: transparent;
+        font-size: 1.2em;
       }
 
       &:hover {
@@ -102,7 +103,7 @@ a {
       }
 
       &.active {
-        color: var(--fg-bright);
+        color: var(--accent);
 
         &::before {
           color: var(--accent);
