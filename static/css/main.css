@@ -239,6 +239,7 @@ main {
     align-items: baseline;
     gap: 1rem;
     margin-bottom: 2rem;
+    line-height: normal;
   }
 }
 
