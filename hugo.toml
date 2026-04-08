@@ -2,3 +2,6 @@ baseURL = 'https://johnmayou.com/'
 languageCode = 'en-us'
 title = 'John Mayou'
 enableEmoji = true
+
+[markup.highlight]
+  style = "github-dark"
