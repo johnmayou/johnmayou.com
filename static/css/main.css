@@ -167,7 +167,7 @@ main {
     }
 
     &:hover .post-title {
-      color: var(--fg-bright);
+      color: var(--fg-subtle);
     }
   }
 }
