@@ -256,7 +256,7 @@ main {
 .prose .post-header {
   .post-title {
     font-weight: 600;
-    color: var(--fg);
+    color: var(--fg-bright);
   }
 
   .post-date {
