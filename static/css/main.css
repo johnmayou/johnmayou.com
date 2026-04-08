@@ -90,8 +90,12 @@ a {
       color: var(--fg-muted);
       text-decoration: none;
       padding: 0.2rem 0;
-      padding-left: 1rem;
       transition: color 0.15s ease;
+
+      &::before {
+        content: "• ";
+        color: transparent;
+      }
 
       &:hover {
         color: #aaa;
@@ -99,10 +103,8 @@ a {
 
       &.active {
         color: var(--fg-bright);
-        padding-left: 0;
 
         &::before {
-          content: "• ";
           color: var(--accent);
         }
       }
