@@ -63,12 +63,12 @@ a {
 
 #layout {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 100px 620px 100px;
   grid-template-areas:
-    ".       header"
-    "sidebar content";
-  column-gap: 4rem;
-  max-width: 900px;
+    ".       header  ."
+    "sidebar content .";
+  column-gap: 2.5rem;
+  width: fit-content;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
@@ -126,7 +126,6 @@ a {
 
 main {
   grid-area: content;
-  min-width: 0;
 }
 
 .post-list {
@@ -164,7 +163,6 @@ main {
 }
 
 .prose {
-  max-width: 620px;
   line-height: 1.7;
   font-size: 0.95rem;
   color: var(--fg-prose);
@@ -240,6 +238,7 @@ main {
     gap: 1rem;
     margin-bottom: 2rem;
     line-height: normal;
+    font-size: 1rem;
   }
 }
 
