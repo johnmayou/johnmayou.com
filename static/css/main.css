@@ -97,11 +97,10 @@ a {
       &::before {
         content: "•";
         position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        left: 4px;
+        bottom: 1px;
         color: transparent;
-        font-size: 1.5em;
+        font-size: 1.7em;
         line-height: 1;
       }
 
