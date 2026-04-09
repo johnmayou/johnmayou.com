@@ -333,6 +333,17 @@ main {
     margin-bottom: 1.25rem;
   }
 
+  .footnotes {
+    margin-top: 2.5rem;
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+      padding-bottom: 2rem;
+    }
+  }
+
   .post-header {
     font-family: var(--font-sans);
     display: flex;
