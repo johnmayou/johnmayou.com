@@ -106,7 +106,7 @@ footer {
     color: var(--fg-subtle);
     transition: color 0.15s ease;
 
-    @media (hover: hover) and (pointer: fine) {
+    @media (pointer: coarse) {
       &:hover {
         color: var(--fg-muted);
       }
@@ -170,7 +170,7 @@ footer {
         }
       }
 
-      @media (hover: hover) and (pointer: fine) {
+      @media (pointer: coarse) {
         &:hover {
           color: var(--fg-muted);
         }
@@ -250,7 +250,7 @@ main {
       transition: color 0.15s ease;
     }
 
-    @media (hover: hover) and (pointer: fine) {
+    @media (pointer: coarse) {
       &:hover .post-title {
         color: var(--fg-subtle);
       }
@@ -262,6 +262,7 @@ main {
   font-family: "PT Serif", serif;
   line-height: 1.9;
   font-size: 1rem;
+  font-weight: 300;
   color: var(--fg-prose);
 
   /* --md */
@@ -312,7 +313,7 @@ main {
     text-decoration: underline;
     transition: color 0.15s ease;
 
-    @media (hover: hover) and (pointer: fine) {
+    @media (pointer: coarse) {
       &:hover {
         color: var(--accent-hover);
       }
