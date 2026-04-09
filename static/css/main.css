@@ -306,6 +306,7 @@ main {
 
   strong {
     color: var(--fg-heading);
+    font-weight: 600;
   }
 
   a {
