@@ -260,13 +260,13 @@ main {
 
 .prose {
   font-family: "PT Serif", serif;
-  line-height: 1.7;
-  font-size: 0.95rem;
+  line-height: 1.9;
+  font-size: 1rem;
   color: var(--fg-prose);
 
   /* --md */
   @media (max-width: 820px) {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
 
   h1,
@@ -284,36 +284,18 @@ main {
   }
 
   h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   h4,
   h5,
   h6 {
-    font-size: 0.95rem;
-  }
-
-  /* --md */
-  @media (max-width: 820px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-    h2 {
-      font-size: 1.25rem;
-    }
-    h3 {
-      font-size: 1.1rem;
-    }
-    h4,
-    h5,
-    h6 {
-      font-size: 1rem;
-    }
+    font-size: 1rem;
   }
 
   p {
