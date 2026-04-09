@@ -316,9 +316,6 @@ main {
     margin-bottom: 1.25rem;
 
     code {
-      background: none;
-      padding: 0;
-      color: var(--fg-prose);
       font-size: 0.875rem;
     }
   }
