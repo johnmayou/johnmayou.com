@@ -318,6 +318,7 @@ main {
     padding: 1rem 1.25rem;
     border-radius: 6px;
     overflow-x: auto;
+    overscroll-behavior: contain;
     margin-bottom: 1.25rem;
 
     code {
