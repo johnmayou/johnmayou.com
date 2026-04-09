@@ -257,6 +257,7 @@ main {
     color: var(--fg-heading);
     margin-top: 2rem;
     margin-bottom: 0.75rem;
+    text-wrap: balance;
   }
 
   h1 {
@@ -276,6 +277,7 @@ main {
 
   p {
     margin-bottom: 1.25rem;
+    text-wrap: pretty;
   }
 
   strong {
