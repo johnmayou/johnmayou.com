@@ -106,8 +106,10 @@ footer {
     color: var(--fg-subtle);
     transition: color 0.15s ease;
 
-    &:hover {
-      color: var(--fg-muted);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--fg-muted);
+      }
     }
   }
 }
@@ -168,8 +170,10 @@ footer {
         }
       }
 
-      &:hover {
-        color: var(--fg-muted);
+      @media (hover: hover) {
+        &:hover {
+          color: var(--fg-muted);
+        }
       }
 
       &.active {
@@ -246,8 +250,10 @@ main {
       transition: color 0.15s ease;
     }
 
-    &:hover .post-title {
-      color: var(--fg-subtle);
+    @media (hover: hover) {
+      &:hover .post-title {
+        color: var(--fg-subtle);
+      }
     }
   }
 }
@@ -324,8 +330,10 @@ main {
     text-decoration: underline;
     transition: color 0.15s ease;
 
-    &:hover {
-      color: var(--accent-hover);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--accent-hover);
+      }
     }
   }
 
