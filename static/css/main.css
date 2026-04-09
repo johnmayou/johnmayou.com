@@ -306,14 +306,6 @@ main {
     }
   }
 
-  code {
-    font-size: 0.875em;
-    background: var(--surface);
-    padding: 0.15em 0.4em;
-    border-radius: 3px;
-    color: #f0883e;
-  }
-
   pre {
     background: var(--surface);
     border: 1px solid var(--surface-border);
