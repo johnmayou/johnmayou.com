@@ -219,6 +219,12 @@ main {
     text-decoration: none;
     gap: 1rem;
 
+    /* --md */
+    @media (max-width: 820px) {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
     &:first-child {
       padding-top: 0;
     }
@@ -336,6 +342,12 @@ main {
     margin-bottom: 2rem;
     line-height: normal;
     font-size: 1rem;
+
+    /* --md */
+    @media (max-width: 820px) {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 }
 
@@ -343,12 +355,22 @@ main {
 .prose .post-header {
   .post-title {
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--fg-heading);
+
+    /* --md */
+    @media (max-width: 820px) {
+      font-size: 19px;
+    }
   }
 
   .post-date {
     font-size: 0.85rem;
-    color: var(--fg-dim);
+    color: var(--fg-subtle);
+
+    /* --md */
+    @media (max-width: 820px) {
+      font-size: 0.875rem;
+    }
   }
 }
