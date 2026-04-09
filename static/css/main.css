@@ -342,6 +342,25 @@ main {
       padding-top: 0.75rem;
       padding-bottom: 2rem;
     }
+
+    ol {
+      list-style: none;
+      padding-left: 10px;
+      counter-reset: footnotes;
+
+      li {
+        counter-increment: footnotes;
+        padding-left: 1.25rem;
+        position: relative;
+
+        &::before {
+          content: counter(footnotes) ".";
+          position: absolute;
+          left: 0;
+          color: var(--fg-subtle);
+        }
+      }
+    }
   }
 
   .post-header {
