@@ -204,6 +204,7 @@ footer {
 
 main {
   grid-area: content;
+  min-width: 0;
 }
 
 .post-list {
