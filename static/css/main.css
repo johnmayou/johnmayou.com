@@ -106,7 +106,7 @@ footer {
     color: var(--fg-subtle);
     transition: color 0.15s ease;
 
-    @media (hover: hover) {
+    @media (pointer: fine) {
       &:hover {
         color: var(--fg-muted);
       }
@@ -170,7 +170,7 @@ footer {
         }
       }
 
-      @media (hover: hover) {
+      @media (pointer: fine) {
         &:hover {
           color: var(--fg-muted);
         }
@@ -250,7 +250,7 @@ main {
       transition: color 0.15s ease;
     }
 
-    @media (hover: hover) {
+    @media (pointer: fine) {
       &:hover .post-title {
         color: var(--fg-subtle);
       }
@@ -312,7 +312,7 @@ main {
     text-decoration: underline;
     transition: color 0.15s ease;
 
-    @media (hover: hover) {
+    @media (pointer: fine) {
       &:hover {
         color: var(--accent-hover);
       }
