@@ -81,6 +81,7 @@ a {
       "sidebar"
       "content"
       "footer";
+    row-gap: 1.25rem;
     width: 100%;
     padding: 2.5rem 1.5rem;
   }
@@ -126,6 +127,8 @@ footer {
     /* --md */
     @media (max-width: 820px) {
       flex-direction: row;
+      gap: 1rem;
+      padding-bottom: 2rem;
     }
 
     a {
@@ -138,6 +141,11 @@ footer {
       padding-left: 1.2em;
       transition: color 0.15s ease;
 
+      /* --md */
+      @media (max-width: 820px) {
+        padding-left: 0rem;
+      }
+
       &::before {
         content: "•";
         position: absolute;
@@ -146,6 +154,13 @@ footer {
         color: transparent;
         font-size: 1.7em;
         line-height: 1;
+
+        /* --md */
+        @media (max-width: 820px) {
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -16px;
+        }
       }
 
       &:hover {
