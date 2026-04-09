@@ -316,6 +316,7 @@ main {
 
   pre {
     background: var(--surface);
+    border: 1px solid var(--surface-border);
     padding: 1rem 1.25rem;
     border-radius: 6px;
     overflow-x: auto;
