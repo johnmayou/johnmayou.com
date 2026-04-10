@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}John Mayou</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
     <link rel="preload" href="/fonts/pt-serif-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/pt-serif-v19-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/pt-serif-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>

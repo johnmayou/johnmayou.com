@@ -3,5 +3,8 @@ languageCode = 'en-us'
 title = 'John Mayou'
 enableEmoji = true
 
+[params]
+  description = "I'm a developer living in Minneapolis, MN. I currently work at SPS Commerce."
+
 [markup.highlight]
   style = "github-dark"
