@@ -1,8 +1,9 @@
 /* breakpoints: --sm: 600px, --md: 820px, --lg: 1100px */
 
 :root {
-  --font-sans:
-    ui-sans-serif, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 
   --accent: #58a6ff;
   --accent-hover: #79b8ff;
@@ -230,7 +231,7 @@ footer {
   #site-name {
     display: block;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     letter-spacing: 0.1em;
     color: var(--fg-bright);
     text-decoration: none;
@@ -293,7 +294,7 @@ main {
   font-family: "PT Serif", serif;
   line-height: 1.9;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: var(--font-weight-normal);
   color: var(--fg-prose);
 
   /* --md */
@@ -308,7 +309,7 @@ main {
   h5,
   h6 {
     font-family: var(--font-sans);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: var(--fg-heading);
     margin-top: 2rem;
     margin-bottom: 0.75rem;
@@ -337,7 +338,7 @@ main {
 
   strong {
     color: var(--fg-heading);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
   }
 
   a {
@@ -437,7 +438,7 @@ main {
 .prose .post-header {
   .post-title {
     font-size: 17px;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     color: var(--fg-heading);
 
     /* --md */
