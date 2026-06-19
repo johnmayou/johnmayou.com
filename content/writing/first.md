@@ -3,7 +3,7 @@ date = '2025-05-14'
 title = 'Test Post One'
 +++
 
-### Section
+## Section
 
 [second]({{< ref "writing/second.md" >}})
 
